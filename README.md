@@ -365,7 +365,7 @@ border-right: 1px solid rgba(255,255,255,0.7);
 #menu-right,
 #menu-right li a{color:#777777;}
 /*第一層背景滑過顏色*/ 
-#menu-right li:hover {background:;}
+#menu-right li:hover {background:#d3d3d3;}
 
 /*第一層文字滑過顏色*/ 
 #menu-right li:hover a{color:;}
@@ -377,7 +377,7 @@ border-right: 1px solid rgba(255,255,255,0.7);
 #menu-right li:hover li a{color:;}
 
 /*第二層背景滑過顏色*/ 
-#menu-right li li:hover {background:;}
+#menu-right li li:hover {background:#d3d3d3;}
 
 /*第二層文字滑過顏色*/ 
 #menu-right li li:hover a{color:;}
@@ -389,8 +389,7 @@ footer{background:;}
 footer,.footer a{color:;}
 /*內文區塊色*/
 body{background:;}
-article .box:before{background:;}
-
+article .box:before{background:#d3d3d3;}
 /*手機板 左上方 手機板選單按鈕背景顏色*/
 .header a.m_menu {background-color:#d3d3d3 !important;}
 /*手機板購物車品項文字顏色 + 背景言顏色*/
@@ -512,7 +511,7 @@ jQuery(document).ready(function($){
 .content {
 	 !important
     width: 98%;
-    max-width: 1200px;
+    max-width:  1200px;
     margin: 0 auto;
     display: none;
 }
